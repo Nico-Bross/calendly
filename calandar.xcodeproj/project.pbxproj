@@ -17,6 +17,10 @@
 		03FBC28A2886F20C006D44F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBC2602886F209006D44F4 /* ContentView.swift */; };
 		03FBC28B2886F20C006D44F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FBC2612886F20C006D44F4 /* Assets.xcassets */; };
 		03FBC28C2886F20C006D44F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FBC2612886F20C006D44F4 /* Assets.xcassets */; };
+		03FBC29E2886F51F006D44F4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBC29D2886F51F006D44F4 /* Home.swift */; };
+		03FBC2A02886F675006D44F4 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBC29F2886F674006D44F4 /* CustomDatePicker.swift */; };
+		03FBC2A22887018B006D44F4 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBC2A12887018B006D44F4 /* DateValue.swift */; };
+		03FBC2A428872CF8006D44F4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBC2A328872CF8006D44F4 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		03FBC27F2886F20C006D44F4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FBC2832886F20C006D44F4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		03FBC2852886F20C006D44F4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		03FBC29D2886F51F006D44F4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		03FBC29F2886F674006D44F4 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		03FBC2A12887018B006D44F4 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		03FBC2A328872CF8006D44F4 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		03FBC25E2886F209006D44F4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				03FBC29C2886F4D6006D44F4 /* Model */,
+				03FBC29B2886F4C2006D44F4 /* View */,
 				03FBC25F2886F209006D44F4 /* calandarApp.swift */,
 				03FBC2602886F209006D44F4 /* ContentView.swift */,
 				03FBC2612886F20C006D44F4 /* Assets.xcassets */,
@@ -139,6 +149,24 @@
 				03FBC2852886F20C006D44F4 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		03FBC29B2886F4C2006D44F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03FBC29D2886F51F006D44F4 /* Home.swift */,
+				03FBC29F2886F674006D44F4 /* CustomDatePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03FBC29C2886F4D6006D44F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03FBC2A12887018B006D44F4 /* DateValue.swift */,
+				03FBC2A328872CF8006D44F4 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FBC2A02886F675006D44F4 /* CustomDatePicker.swift in Sources */,
 				03FBC2892886F20C006D44F4 /* ContentView.swift in Sources */,
+				03FBC29E2886F51F006D44F4 /* Home.swift in Sources */,
 				03FBC2872886F20C006D44F4 /* calandarApp.swift in Sources */,
+				03FBC2A428872CF8006D44F4 /* Task.swift in Sources */,
+				03FBC2A22887018B006D44F4 /* DateValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
